@@ -1,4 +1,4 @@
-# Elections-and-Macroeconomic-Shocks-vs-Turkey’s-Reaction-by-Region
+# Elections and Macroeconomic Shocks vs Turkey’s Reaction by Region
 
 ## *Project Idea*
 
@@ -70,7 +70,7 @@ The project will utilize two primary datasets:
 - **Pandas & NumPy** – Data cleaning, transformation, and aggregation  
 - **Matplotlib & Seaborn** – Data visualization  
 - **Statsmodels** – Correlation and lag regression modeling  
-- **Jupyter Notebooks** – For documentation and reproducible workflow  
+- **Jupyter Notebooks** - For documentation and reproducible workflow  
 
 ---
 
