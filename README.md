@@ -24,7 +24,6 @@ The project will utilize two primary datasets:
 ### *Macroeconomic and Event Dataset (Stressful Event Indicators)*  
 - **USD/TRY Exchange Rate:** Daily data from the [TCMB EVDS Data Portal](https://evds2.tcmb.gov.tr/)  
 - **Economic Volatility Index:** 7-day rolling standard deviation of daily USD/TRY returns  
-- **Inflation (CPI) Release Dates:** [TÜİK CPI Release Schedule](https://data.tuik.gov.tr/)  
 - **Optional Events:** Major earthquakes from the [AFAD Earthquake Catalog](https://deprem.afad.gov.tr/event-catalog) weighted by regional exposure  
 
 ---
