@@ -94,6 +94,23 @@ The project will utilize two primary datasets:
 
 ---
 
-This project will contribute to understanding how **collective stress responses differ across Türkiye’s regions**, revealing potential cultural, economic, and informational asymmetries in how populations react to uncertainty and macro-level shocks.
+This project will contribute to understanding how **collective stress responses differ across Türkiye's regions**, revealing potential cultural, economic, and informational asymmetries in how populations react to uncertainty and macro-level shocks.
+
+---
+
+## Phase 3 – Machine Learning
+
+We applied K-Means clustering to engineered regional stress features to identify latent stress-response patterns across Turkey's regions. The clustering analysis groups regions into distinct profiles based on their stress response characteristics (mean stress, maximum stress, and stress variability), revealing which regions exhibit similar patterns of stress reactivity to national events.
+
+**Method**: Unsupervised Learning (K-Means Clustering)
+- **Features**: Mean stress index, maximum stress index, standard deviation of stress index
+- **Clusters**: 3 distinct regional stress-response profiles
+- **Evaluation**: Silhouette score for cluster quality assessment
+
+---
+
+## AI Assistance Disclosure
+
+ChatGPT was used to assist with machine learning method selection and workflow structuring. All analysis and interpretation were performed by the author.
 
 ---
