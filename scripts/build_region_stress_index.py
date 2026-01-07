@@ -17,8 +17,8 @@ from scipy.stats import zscore
 
 
 def build_region_stress_index(
-    in_file="google_trends_province_timeseries.csv",
-    out_file="region_stress_index_weekly.csv"
+    in_file="../data/google_trends_province_timeseries.csv",
+    out_file="../data/region_stress_index_weekly.csv"
 ):
     # Veriyi oku
     print(f"[INFO] İl bazlı Trends verisi okunuyor: {in_file}")

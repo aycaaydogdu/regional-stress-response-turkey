@@ -23,9 +23,9 @@ FX_RET_THRESHOLD = 0.02  # Kur şoku için log-getiri eşiği (~%2)
 
 
 def build_event_dates(
-    eq_file="earthquake.csv",
-    fx_file="USD_TRY Historical Data.csv",
-    out_file="event_dates.csv"
+    eq_file="../data/earthquake.csv",
+    fx_file="../data/USD_TRY Historical Data.csv",
+    out_file="../data/event_dates.csv"
 ):
     # --------------------------------------------------
     # 1) Deprem event tarihleri

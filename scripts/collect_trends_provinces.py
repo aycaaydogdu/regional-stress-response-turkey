@@ -123,7 +123,7 @@ KW_LIST = ["anksiyete", "uykusuzluk", "stres", "panik atak", "mide yanması"]
 TIMEFRAME = "2018-01-01 2025-11-30"
 
 
-def collect_trends_provinces(out_file="google_trends_province_timeseries.csv"):
+def collect_trends_provinces(out_file="../data/google_trends_province_timeseries.csv"):
     """
     Her il (ISO code = TR-xx) için Google Trends zaman serisi çeker
     ve tek bir CSV'de toplar.

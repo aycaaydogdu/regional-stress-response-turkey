@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def load_panel(panel_file="event_region_stress_panel.csv"):
+def load_panel(panel_file="../data/event_region_stress_panel.csv"):
     df = pd.read_csv(panel_file)
     df["event_date"] = pd.to_datetime(df["event_date"])
     return df

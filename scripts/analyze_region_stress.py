@@ -21,8 +21,8 @@ from statsmodels.formula.api import ols
 # --------------------------
 
 def load_data(
-    region_file="region_stress_index_weekly.csv",
-    events_file="event_dates.csv"
+    region_file="../data/region_stress_index_weekly.csv",
+    events_file="../data/event_dates.csv"
 ):
     print(f"[INFO] Bölgesel stres verisi okunuyor: {region_file}")
     region = pd.read_csv(region_file)
@@ -65,7 +65,7 @@ def run_eda(region):
 
 def build_event_panel(region, events,
                       pre_days=30, post_days=30,
-                      out_file="event_region_stress_panel.csv"):
+                      out_file="../data/event_region_stress_panel.csv"):
     """
     Her event + bölge için:
     - pre_mean: event_date - pre_days .. event_date-1
